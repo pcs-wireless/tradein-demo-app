@@ -1211,7 +1211,7 @@ const ConfirmTrade: FC = () => {
       </Fragment>
       <CustomModal
         className="cancel"
-        visible={modal}
+        open={modal}
         onOk={handleOpenModal}
         onCancel={handleOpenModal}
         footer={null}

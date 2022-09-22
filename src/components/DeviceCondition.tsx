@@ -1028,7 +1028,7 @@ const DeviceCondition: FC = () => {
           </RowDesktop>
         </Fragment>
         <Modal
-          visible={modal}
+          open={modal}
           onOk={handleOpenModal}
           onCancel={handleOpenModal}
           footer={null}
