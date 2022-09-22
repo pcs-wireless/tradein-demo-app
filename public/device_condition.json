@@ -1,0 +1,1142 @@
+{
+  "data": {
+    "devices": [
+      {
+        "id": 1,
+        "name": "Phone",
+        "deviceConditions": [
+          {
+            "id": 17,
+            "device": {
+              "name": "Phone"
+            },
+            "condition": {
+              "en": {
+                "list": [
+                  "Issues powering on and off",
+                  "Signs of battery swelling"
+                ],
+                "title": "Does your device power on?",
+                "subtitle": "Select “No” if the device has:"
+              },
+              "it": {
+                "list": [
+                  "Problemi di accensione e spegnimento",
+                  "Segni di rigonfiamento della batteria"
+                ],
+                "title": "Il tuo dispositivo si accende?",
+                "subtitle": "Selezionare \"No\" se il dispositivo dispone di:"
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 53,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 54,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 53,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 54,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "device": {
+              "name": "Phone"
+            },
+            "condition": {
+              "en": {
+                "list": [
+                  "Condition 1",
+                  "Condition 2",
+                  "Condition 3"
+                ],
+                "title": "Is the screen free of cracks and chips?",
+                "subtitle": "Select “No” if the device has:"
+              },
+              "it": {
+                "list": [
+                  "Condizione 1",
+                  "Condizione 2",
+                  "Condizione 3"
+                ],
+                "title": "Lo schermo è privo di crepe e scheggiature?",
+                "subtitle": "Selezionare \"No\" se il dispositivo dispone di:"
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 55,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 56,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 55,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 56,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "device": {
+              "name": "Phone"
+            },
+            "condition": {
+              "en": {
+                "list": [],
+                "title": "Is Find My iPhone or any other security lock turned off?",
+                "subtitle": null
+              },
+              "it": {
+                "list": [],
+                "title": "Trova il mio iPhone o qualsiasi altro blocco di sicurezza è disattivato?",
+                "subtitle": null
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 57,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 58,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 57,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 58,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "device": {
+              "name": "Phone"
+            },
+            "condition": {
+              "en": {
+                "list": [],
+                "title": "Is the device clear of all financing and fully paid for?",
+                "subtitle": null
+              },
+              "it": {
+                "list": [],
+                "title": "Il dispositivo è libero da tutti i finanziamenti e completamente pagato?",
+                "subtitle": null
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 59,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 60,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 59,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 60,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "device": {
+              "name": "Phone"
+            },
+            "condition": {
+              "en": {
+                "list": [],
+                "title": "Will the working power adapter be included?",
+                "subtitle": null
+              },
+              "it": {
+                "list": [],
+                "title": "Sarà incluso l'alimentatore funzionante?",
+                "subtitle": null
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 61,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 62,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 61,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 62,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Laptop",
+        "deviceConditions": [
+          {
+            "id": 22,
+            "device": {
+              "name": "Laptop"
+            },
+            "condition": {
+              "en": {
+                "list": [
+                  "Issues powering on and off",
+                  "Signs of battery swelling"
+                ],
+                "title": "Does your device power on?",
+                "subtitle": "Select “No” if the device has:"
+              },
+              "it": {
+                "list": [
+                  "Problemi di accensione e spegnimento",
+                  "Segni di rigonfiamento della batteria"
+                ],
+                "title": "Il tuo dispositivo si accende?",
+                "subtitle": "Selezionare \"No\" se il dispositivo dispone di:"
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 63,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 64,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 63,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 64,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "device": {
+              "name": "Laptop"
+            },
+            "condition": {
+              "en": {
+                "list": [
+                  "Condition 1",
+                  "Condition 2",
+                  "Condition 3"
+                ],
+                "title": "Is the screen free of cracks and chips?",
+                "subtitle": "Select “No” if the device has:"
+              },
+              "it": {
+                "list": [
+                  "Condizione 1",
+                  "Condizione 2",
+                  "Condizione 3"
+                ],
+                "title": "Lo schermo è privo di crepe e scheggiature?",
+                "subtitle": "Selezionare \"No\" se il dispositivo dispone di:"
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 65,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 66,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 65,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 66,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "device": {
+              "name": "Laptop"
+            },
+            "condition": {
+              "en": {
+                "list": [],
+                "title": "Is Find My iPhone or any other security lock turned off?",
+                "subtitle": null
+              },
+              "it": {
+                "list": [],
+                "title": "Trova il mio iPhone o qualsiasi altro blocco di sicurezza è disattivato?",
+                "subtitle": null
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 67,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 68,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 67,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 68,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "device": {
+              "name": "Laptop"
+            },
+            "condition": {
+              "en": {
+                "list": [],
+                "title": "Will the working power adapter be included",
+                "subtitle": null
+              },
+              "it": {
+                "list": [],
+                "title": "Sarà incluso l'alimentatore funzionante",
+                "subtitle": null
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 69,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 70,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 69,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 70,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tablet",
+        "deviceConditions": [
+          {
+            "id": 1,
+            "device": {
+              "name": "Tablet"
+            },
+            "condition": {
+              "en": {
+                "list": [
+                  "Issues powering on and off",
+                  "Signs of battery swelling"
+                ],
+                "title": "Does your device power on?",
+                "subtitle": "Select \"No\" if the device has:"
+              },
+              "it": {
+                "list": [
+                  "Problemi di accensione e spegnimento",
+                  "Segni di rigonfiamento della batteria"
+                ],
+                "title": "Il tuo dispositivo si accende?",
+                "subtitle": "Seleziona \"No\" se il dispositivo ha:"
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 18,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 19,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 18,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 19,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "device": {
+              "name": "Tablet"
+            },
+            "condition": {
+              "en": {
+                "list": [
+                  "Software boot-up errors",
+                  "Software can't be installed",
+                  "A blinking folder with a \"?\" displayed",
+                  "View accepted Mac screens"
+                ],
+                "title": "Does the operating system load properly?",
+                "subtitle": "Select \"No\" if the device has:"
+              },
+              "it": {
+                "list": [
+                  "Errori di avvio del software",
+                  "Il software non può essere installato",
+                  "Una cartella lampeggiante con un \"?\" visualizzato",
+                  "Visualizza gli schermi Mac accettati"
+                ],
+                "title": "Il sistema operativo si carica correttamente?",
+                "subtitle": "Seleziona \"No\" se il dispositivo ha:"
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 20,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 21,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 20,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 21,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "device": {
+              "name": "Tablet"
+            },
+            "condition": {
+              "en": {
+                "list": [
+                  "Broken or cracked screen",
+                  "Malfunctioning screen (flicker, pixel loss, non-functioning backlight, lines in the screen)",
+                  "Cracks, dents, or severe scratches to the housing",
+                  "Malfunctioning or missing buttons"
+                ],
+                "title": "Is the device in good physical condition?",
+                "subtitle": "Select \"No\" if the device has:"
+              },
+              "it": {
+                "list": [
+                  "Schermo rotto o rotto",
+                  "Schermo malfunzionante (sfarfallio, perdita di pixel, retroilluminazione non funzionante, linee sullo schermo)",
+                  "Crepe, ammaccature o graffi gravi sull'alloggiamento",
+                  "Pulsanti malfunzionanti o mancanti"
+                ],
+                "title": "Il dispositivo è in buone condizioni fisiche?",
+                "subtitle": "Seleziona \"No\" se il dispositivo ha:"
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 22,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 23,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 22,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 23,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "device": {
+              "name": "Tablet"
+            },
+            "condition": {
+              "en": {
+                "list": [],
+                "title": "Will the working power adapter be included?",
+                "subtitle": null
+              },
+              "it": {
+                "list": [],
+                "title": "Sarà incluso l'alimentatore funzionante?",
+                "subtitle": null
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 24,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 25,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 24,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 25,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Watch",
+        "deviceConditions": [
+          {
+            "id": 26,
+            "device": {
+              "name": "Watch"
+            },
+            "condition": {
+              "en": {
+                "list": [
+                  "Issues powering on and off",
+                  "Signs of battery swelling"
+                ],
+                "title": "Does your device power on?",
+                "subtitle": "Select “No” if the device has:"
+              },
+              "it": {
+                "list": [
+                  "Problemi di accensione e spegnimento",
+                  "Segni di rigonfiamento della batteria"
+                ],
+                "title": "Il tuo dispositivo si accende?",
+                "subtitle": "Selezionare \"No\" se il dispositivo dispone di:"
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 71,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 72,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 71,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 72,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "device": {
+              "name": "Watch"
+            },
+            "condition": {
+              "en": {
+                "list": [
+                  "Condition 1",
+                  "Condition 2",
+                  "Condition 3"
+                ],
+                "title": "Is the screen free of cracks and chips?",
+                "subtitle": "Select “No” if the device has:"
+              },
+              "it": {
+                "list": [
+                  "Condizione 1",
+                  "Condizione 2",
+                  "Condizione 3"
+                ],
+                "title": "Lo schermo è privo di crepe e scheggiature?",
+                "subtitle": "Selezionare \"No\" se il dispositivo dispone di:"
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 73,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 74,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 73,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 74,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "device": {
+              "name": "Watch"
+            },
+            "condition": {
+              "en": {
+                "list": [],
+                "title": "Is Find My iPhone or any other security lock turned off?",
+                "subtitle": null
+              },
+              "it": {
+                "list": [],
+                "title": "Trova il mio iPhone o qualsiasi altro blocco di sicurezza è disattivato?",
+                "subtitle": null
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 75,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 76,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 75,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 76,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "device": {
+              "name": "Watch"
+            },
+            "condition": {
+              "en": {
+                "list": [],
+                "title": "Does the device charge and is free of any swelling?",
+                "subtitle": null
+              },
+              "it": {
+                "list": [],
+                "title": "Il dispositivo si carica ed è privo di rigonfiamenti?",
+                "subtitle": null
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 77,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 78,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 77,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 78,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 2,
+                      "name": "DAMAGE"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "device": {
+              "name": "Watch"
+            },
+            "condition": {
+              "en": {
+                "list": [],
+                "title": "Will the working power adapter be included",
+                "subtitle": null
+              },
+              "it": {
+                "list": [],
+                "title": "Sarà incluso l'alimentatore funzionante",
+                "subtitle": null
+              }
+            },
+            "deviceConditionGrades": [
+              {
+                "en": [
+                  {
+                    "id": 79,
+                    "name": "Yes",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 80,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ],
+                "it": [
+                  {
+                    "id": 79,
+                    "name": "sì",
+                    "partnerGrade": {
+                      "id": 1,
+                      "name": "FULL_VALUE"
+                    }
+                  },
+                  {
+                    "id": 80,
+                    "name": "No",
+                    "partnerGrade": {
+                      "id": 3,
+                      "name": "RECYCLE"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

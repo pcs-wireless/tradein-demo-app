@@ -1,0 +1,383 @@
+@import url("assets/fonts/_fonts.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #f2f6f8; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #cccccc; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #cacaca; /* creates padding around scroll thumb */
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+.mobile-menu {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ant-steps-item-finish .ant-steps-item-icon {
+  border-color: #fd0000 !important;
+  background-color: #fd0000 !important;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: #fff !important;
+}
+
+.ant-steps-item-title {
+  line-height: 20px !important;
+}
+.ant-steps-item-tail::after {
+  height: 3px !important;
+}
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: #fd0000 !important;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+  background: #ffffff !important;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  border-color: #fd0000 !important;
+  border: 3px solid #fd0000 !important;
+}
+
+.ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-icon
+  .ant-steps-icon {
+  color: rgba(0, 0, 0, 0.25) !important;
+}
+
+/* .trade-status .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+  display: none;
+} */
+
+.how-does-it-work .ant-steps-item-tail {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.how-does-it-work .ant-steps-item-process .ant-steps-item-icon {
+  border-color: #fff !important;
+  border: 3px solid #fff !important;
+}
+
+.how-does-it-work .ant-steps-item-title {
+  font-family: "Poppins-Bold";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.how-does-it-work .ant-steps-item-description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.ant-modal-content {
+  border-radius: 8px !important;
+}
+
+.home-modal .ant-modal-content {
+  padding: 41px !important;
+}
+
+.how-does-it-work .ant-steps-item-icon {
+  margin-right: 26px !important;
+}
+
+.how-does-it-work .ant-steps-item-title {
+  margin-bottom: 8px;
+}
+
+.how-does-it-work
+  .ant-steps-vertical
+  > .ant-steps-item
+  .ant-steps-item-description {
+  padding-bottom: 18px !important;
+}
+
+.ant-select-item-option-content {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.device-condition .ant-checkbox-inner {
+  border-radius: 50% !important;
+  height: 24px;
+  width: 24px;
+}
+
+.device-condition .ant-checkbox-checked .ant-checkbox-inner::after {
+  height: 12px;
+  width: 7px;
+  transform: rotate(45deg) scale(1) translate(-50%, -55%);
+}
+
+.device-condition .ant-checkbox-checked .ant-checkbox-inner {
+  border-color: #27ae60 !important;
+  background-color: #27ae60;
+}
+
+.device-condition .ant-checkbox-checked::after {
+  border: 1px solid #27ae60 !important;
+}
+
+.device-condition .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border: 1px solid #27ae60 !important;
+}
+
+.ant-radio-inner {
+  border-radius: 50% !important;
+  height: 24px !important;
+  width: 24px !important;
+  margin-top: 2px !important;
+}
+
+.confirm-trade-radio .ant-radio-checked .ant-radio-inner {
+  border-color: #27ae60 !important ;
+}
+
+.confirm-trade-radio .ant-radio-checked .ant-radio-inner:after {
+  background-color: #27ae60 !important;
+  /* height: 10px;
+  width: 10px;
+  top: 6px !important;
+  left: 6px !important; */
+}
+
+.confirm-trade-radio .ant-radio:hover .ant-radio-inner {
+  border-color: 2px solid #27ae60;
+}
+
+.confirm-trade-radio .ant-radio-checked::after {
+  border: 1px solid #27ae60 !important;
+}
+
+.ant-radio-wrapper:hover .ant-radio-inner,
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus + .ant-radio-inner {
+  border: 1px solid #27ae60 !important;
+}
+
+.terms-condition .ant-checkbox-checked .ant-checkbox-inner {
+  border-color: #27ae60 !important;
+  background-color: #27ae60;
+}
+
+.terms-and-condition ol {
+  padding-inline-start: 14px;
+}
+
+.terms-and-condition ol li {
+  margin-bottom: 30px;
+}
+
+input[type="checkbox"]:checked::after {
+  color: #f00;
+  font-style: normal;
+}
+
+.ant-select-item-option-content {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 21px;
+  color: #4f4f4f !important;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  min-width: 108px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 4px !important;
+}
+
+.ant-modal-close-x {
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 32px !important;
+  padding: 10px 10px 0 0;
+}
+
+.ant-menu-light .ant-menu-item:hover {
+  background-color: #f1f3f5;
+  color: #212529 !important;
+  font-weight: 500;
+}
+
+.ant-menu-item-selected {
+  color: #212529 !important;
+  font-weight: 500;
+}
+
+.ant-menu-submenu > .ant-menu {
+  border: 1px solid #ced4da !important;
+}
+
+.ant-menu-vertical.ant-menu-sub {
+  border-right: 1px solid #ced4da !important;
+}
+
+.ant-menu-vertical .ant-menu-item {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border: 1px solid #ced4da !important;
+  font-weight: 500;
+  color: #495057;
+}
+
+.ant-menu-horizontal,
+.ant-menu-item::after,
+.ant-menu-submenu::after {
+  border: none !important;
+}
+
+.shipping-info
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border: 1px solid #828282 !important;
+  border-radius: 4px;
+}
+
+.get-quote .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: 1px solid #828282 !important;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .device-condition .ant-checkbox-inner {
+    height: 24px;
+    width: 24px;
+  }
+  .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+    margin-left: 0 !important;
+  }
+  .ant-steps-vertical
+    > .ant-steps-item
+    > .ant-steps-item-container
+    > .ant-steps-item-tail::after {
+    width: 2px !important;
+  }
+  .ant-steps-item-wait
+    > .ant-steps-item-container
+    > .ant-steps-item-tail::after {
+    background-color: #fd0000 !important;
+  }
+  .ant-steps-item-tail::after {
+    height: 16px !important;
+  }
+  .how-does-it-work .ant-steps-item-tail::after {
+    height: 0px !important;
+  }
+  .ant-steps-item-process
+    > .ant-steps-item-container
+    > .ant-steps-item-tail::after {
+    background-color: #fd0000 !important;
+  }
+  .ant-steps-vertical
+    > .ant-steps-item
+    > .ant-steps-item-container
+    > .ant-steps-item-tail {
+    padding: 32px 0 6px !important;
+  }
+  .home-modal .ant-modal-content {
+    padding: 0px !important;
+  }
+}

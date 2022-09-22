@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url(SF-Pro.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  src: url(Poppins-Regular.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  font-style: bold;
+  src: url(Poppins-Bold.ttf) format("truetype")
+}
