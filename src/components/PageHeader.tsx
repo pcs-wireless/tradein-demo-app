@@ -43,7 +43,7 @@ const Container = styled(Header)(({ display }: { display: boolean | number }) =>
     ".ant-menu-horizontal": {
       borderBottom: 0,
       marginLeft: 56,
-      minWidth: 200,
+      minWidth: 280,
     },
     ".ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after":
       {
@@ -208,7 +208,7 @@ const PageHeader: FC = () => {
       case Ilocale.IT:
         return "Italian";
       case Ilocale.DE:
-        return "Deutsch";
+        return "German";
       default:
         return "Italian";
     }
@@ -342,7 +342,7 @@ const PageHeader: FC = () => {
                   children: [
                     { label: "English", key: "english" },
                     { label: "Italian", key: "italian" },
-                    { label: "Deutsch", key: "deutsch" },
+                    { label: "German", key: "deutsch" },
                   ],
                 }, // remember to pass the key prop
               ]}
