@@ -16,9 +16,10 @@ import { GetLocalizations } from "../services/query";
 export enum Ilocale {
   EN = "EN",
   IT = "IT",
+  DE = "DE",
 }
 
-const { EN, IT } = Ilocale;
+const { EN, IT, DE } = Ilocale;
 
 // const navigatorLanguage = navigator.language.indexOf(IT) > -1 ? IT : EN;
 const preferedLocalization = cookie.get("userLocalization");
@@ -30,6 +31,8 @@ const importTranslation = async (navigatorLanguage: string) => {
       return import("../assets/translations/en.json");
     case IT:
       return import("../assets/translations/it.json");
+    case DE:
+      return import("../assets/translations/de.json");
     default:
       return import("../assets/translations/it.json");
   }

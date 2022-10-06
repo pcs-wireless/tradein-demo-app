@@ -201,6 +201,19 @@ const PageHeader: FC = () => {
     })
   );
 
+  const getLanguageLabel = (languageCode: any) => {
+    switch (languageCode) {
+      case Ilocale.EN:
+        return "English";
+      case Ilocale.IT:
+        return "Italian";
+      case Ilocale.DE:
+        return "Deutsch";
+      default:
+        return "Italian";
+    }
+  };
+
   useEffect(() => {
     window.addEventListener("resize", getSize);
     return () => window.removeEventListener("resize", getSize);
@@ -316,15 +329,20 @@ const PageHeader: FC = () => {
                   setLocale(Ilocale.IT);
                   setShowNav(false);
                 }
+                if (e.key === "deutsch") {
+                  setLocale(Ilocale.DE);
+                  setShowNav(false);
+                }
               }}
               items={[
                 {
-                  label: locale === Ilocale.EN ? "English" : "Italian",
+                  label: getLanguageLabel(locale),
                   key: "submenu",
                   icon: <GlobeIcon />,
                   children: [
                     { label: "English", key: "english" },
                     { label: "Italian", key: "italian" },
+                    { label: "Deutsch", key: "deutsch" },
                   ],
                 }, // remember to pass the key prop
               ]}

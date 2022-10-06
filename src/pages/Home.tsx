@@ -81,7 +81,8 @@ const StartTradeButton = styled("button")(
     mq({
       backgroundColor: "#4964DF",
       color: "#FFFFFF",
-      width: ismobile ? 327 : 186,
+      minWidth: ismobile ? 327 : 186,
+      width: "auto",
       height: ismobile ? 45 : 48,
       borderRadius: 4,
       fontWeight: 600,
