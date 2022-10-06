@@ -19,6 +19,7 @@ import {
 } from "../services/query";
 import { useLazyQuery, useQuery } from "@apollo/client";
 import { getPartnerId } from "../utils";
+import { useLocalization } from "../providers/IntlProvider";
 import ServerError from "../assets/images/ServerError.svg";
 import MobileShippingInfo from "./MobileShippingInfo";
 import DesktopShippingInfo from "./DesktopShippingInfo";
@@ -221,6 +222,7 @@ export interface IFormInput {
 
 const ShippingInfo: FC = () => {
   const dispatch = useAppDispatch();
+  const [locale] = useLocalization();
 
   const { control, formState, handleSubmit, watch } = useForm<IFormInput>();
 
@@ -313,6 +315,7 @@ const ShippingInfo: FC = () => {
           partnerId: getPartnerId(),
           currency: currency,
           countryCode: countryCode,
+          locale: locale,
         })
       );
       VerifyShippingAdrress();

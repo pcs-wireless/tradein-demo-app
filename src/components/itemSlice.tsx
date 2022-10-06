@@ -45,6 +45,7 @@ interface State {
       }
     ];
     paymentMethod: string | null;
+    locale: string | null;
   };
   ids: {
     deviceId: string | null;
@@ -157,6 +158,7 @@ const initialState: State = {
       },
     ],
     paymentMethod: null,
+    locale: null,
   },
   deviceCondition: {
     question1: undefined,
@@ -348,6 +350,7 @@ export const itemSlice = createSlice({
           currency: action.payload.currency,
           country: action.payload.countryCode,
           paymentMethod: "GIFT_CARD",
+          locale: action.payload.locale,
         },
       };
     },

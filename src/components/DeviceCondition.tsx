@@ -146,7 +146,7 @@ const CustomInfoIcon = styled(InfoCircleOutlined)({
 });
 
 const EstimatedValue = styled("div")({
-  width: 141,
+  width: 150,
   height: 83,
   borderRadius: 4,
   border: "1px solid #2F80ED80",
