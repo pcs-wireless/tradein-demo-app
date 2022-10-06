@@ -518,6 +518,9 @@ const DeviceCondition: FC = () => {
                                   {localization === Ilocale.IT &&
                                     q.locale === "it" &&
                                     q.title}
+                                  {localization === Ilocale.DE &&
+                                    q.locale === "de" &&
+                                    q.title}
                                 </Text>
                                 <Text
                                   marginBottom={14}
@@ -531,6 +534,9 @@ const DeviceCondition: FC = () => {
                                     q.subtitle}
                                   {localization === Ilocale.IT &&
                                     q.locale === "it" &&
+                                    q.subtitle}
+                                  {localization === Ilocale.DE &&
+                                    q.locale === "de" &&
                                     q.subtitle}
                                 </Text>
                                 <UnOrderedList>
@@ -550,6 +556,20 @@ const DeviceCondition: FC = () => {
                                     })}
                                   {localization === Ilocale.IT &&
                                     q.locale === "it" &&
+                                    q?.list?.map((list, index) => {
+                                      return (
+                                        <List
+                                          key={index}
+                                          marginBottom={10}
+                                          fontSize={14}
+                                          lineHeight="22px"
+                                        >
+                                          {list}
+                                        </List>
+                                      );
+                                    })}
+                                  {localization === Ilocale.DE &&
+                                    q.locale === "de" &&
                                     q?.list?.map((list, index) => {
                                       return (
                                         <List
@@ -597,6 +617,36 @@ const DeviceCondition: FC = () => {
                                       )}
                                     {localization === Ilocale.IT &&
                                       q.locale === "it" &&
+                                      q?.choices?.map(
+                                        (
+                                          choices: {
+                                            yesOrNo: string;
+                                            display: string;
+                                          },
+                                          index
+                                        ) => {
+                                          return (
+                                            <div
+                                              style={{ display: "grid" }}
+                                              key={index}
+                                            >
+                                              <CheckboxComponent
+                                                key={index}
+                                                index={`${index}-${_index}`}
+                                                partnerId={choices.yesOrNo}
+                                                partnerName={choices.display}
+                                                value={choices.display}
+                                                deviceConditionId={item.id}
+                                                deviceConditionGradeId={
+                                                  choices.yesOrNo
+                                                }
+                                              />
+                                            </div>
+                                          );
+                                        }
+                                      )}
+                                    {localization === Ilocale.DE &&
+                                      q.locale === "de" &&
                                       q?.choices?.map(
                                         (
                                           choices: {
@@ -857,6 +907,9 @@ const DeviceCondition: FC = () => {
                                     {localization === Ilocale.IT &&
                                       q.locale === "it" &&
                                       q.title}
+                                    {localization === Ilocale.DE &&
+                                      q.locale === "de" &&
+                                      q.title}
                                   </Text>
                                   <Text
                                     marginBottom={8}
@@ -870,6 +923,9 @@ const DeviceCondition: FC = () => {
                                       q.subtitle}
                                     {localization === Ilocale.IT &&
                                       q.locale === "it" &&
+                                      q.subtitle}
+                                    {localization === Ilocale.DE &&
+                                      q.locale === "de" &&
                                       q.subtitle}
                                   </Text>
                                   <UnOrderedList>
@@ -889,6 +945,20 @@ const DeviceCondition: FC = () => {
                                       })}
                                     {localization === Ilocale.IT &&
                                       q.locale === "it" &&
+                                      q?.list?.map((list, index) => {
+                                        return (
+                                          <List
+                                            key={index}
+                                            marginBottom={10}
+                                            fontSize={14}
+                                            lineHeight="22px"
+                                          >
+                                            {list}
+                                          </List>
+                                        );
+                                      })}
+                                    {localization === Ilocale.DE &&
+                                      q.locale === "de" &&
                                       q?.list?.map((list, index) => {
                                         return (
                                           <List
@@ -937,6 +1007,36 @@ const DeviceCondition: FC = () => {
                                       )}
                                     {localization === Ilocale.IT &&
                                       q.locale === "it" &&
+                                      q?.choices?.map(
+                                        (
+                                          choices: {
+                                            yesOrNo: string;
+                                            display: string;
+                                          },
+                                          index
+                                        ) => {
+                                          return (
+                                            <div
+                                              style={{ display: "flex" }}
+                                              key={index}
+                                            >
+                                              <CheckboxComponent
+                                                key={index}
+                                                index={`${index}-${_index}`}
+                                                partnerId={choices.yesOrNo}
+                                                partnerName={choices.display}
+                                                value={choices.display}
+                                                deviceConditionId={item.id}
+                                                deviceConditionGradeId={
+                                                  choices.yesOrNo
+                                                }
+                                              />
+                                            </div>
+                                          );
+                                        }
+                                      )}
+                                    {localization === Ilocale.DE &&
+                                      q.locale === "de" &&
                                       q?.choices?.map(
                                         (
                                           choices: {
